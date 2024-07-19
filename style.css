@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.promo {
+    background: url('assets/images/pastah5.jpeg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.promo h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.promo p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.info-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.info-box img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.info-box h3 {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+}
+
+.info-box p {
+    font-size: 1em;
+    color: #333;
+}
+
+.info-box a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+footer img {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
